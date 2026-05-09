@@ -49,36 +49,6 @@ document.addEventListener("DOMContentLoaded", () => {
     const instagramNameDiv = get("instagramNameContainerId");
     const instagramNameSpan = get("instagramNameSpanId");
 
-    (function instragamToken() {
-      const src = "src";
-      const alt = "alt";
-
-      (function instagramClearToken() {
-        const clear = "";
-
-        if (instagramImgDiv && instagramBackgroundDiv && instagramImg) {
-          instagramImg.setAttribute(src, clear);
-          instagramImg.setAttribute(alt, clear);
-        }
-
-        if (instagramNameDiv && instagramNameSpan) {
-          instagramNameSpan.innerText = clear;
-        }
-      })();
-
-      (function instagramContentsToken() {
-        if (instagramMainDiv && instagramImg && instagramNameSpan) {
-          instagramImg.setAttribute(
-            src,
-            "/Image Ordner/Social Icon's Ordner/instagram_icon.png",
-          );
-          instagramImg.setAttribute(alt, "Instagram Account: pietrobento");
-
-          instagramNameSpan.textContent = "pietrobento";
-        }
-      })();
-    })();
-
     const youtubeMainDiv = get("youtubeMainContainerId");
     const youtubeImgDiv = get("youtubeImgContainerId");
     const youtubeBackgroundDiv = get("youtubeBackgroundContainerId");
@@ -86,118 +56,19 @@ document.addEventListener("DOMContentLoaded", () => {
     const youtubeNameDiv = get("youtubeNameContainerId");
     const youtubeNameSpan = get("youtubeNameSpanId");
 
-    (function youtubeToken() {
-      const src = "src";
-      const alt = "alt";
-
-      (function youtubeClearToken() {
-        const clear = "";
-
-        if (youtubeImgDiv && youtubeBackgroundDiv && youtubeImg) {
-          youtubeImg.setAttribute(src, clear);
-          youtubeImg.setAttribute(alt, clear);
-        }
-
-        if (youtubeNameDiv && youtubeNameSpan) {
-          youtubeNameSpan.innerText = clear;
-        }
-      })();
-
-      (function youtubeContentsToken() {
-        if (youtubeMainDiv && youtubeBackgroundDiv && youtubeImg) {
-          youtubeImg.setAttribute(
-            src,
-            "Image Ordner/Social Icon's Ordner/youtube_icon.png",
-          );
-          youtubeImg.setAttribute(alt, "YouTube Channel: Pietro Bento");
-        }
-
-        if (youtubeMainDiv && youtubeNameDiv && youtubeNameSpan) {
-          youtubeNameSpan.textContent = "Pietro Bento";
-        }
-      })();
-    })();
-
     const discordMainDiv = get("discordMainContainerId");
     const discordImgDiv = get("discordImgContainerId");
     const discordBackgroundDiv = get("discordBackgroundContainerId");
     const discordImg = get("discordImgId");
     const discordNameDiv = get("discordNameContainerId");
     const discordNameSpan = get("discordNameSpanId");
-
-    (function discordToken() {
-      const src = "src";
-      const alt = "alt";
-
-      (function dcClearToken() {
-        const clear = "";
-
-        if (discordImgDiv && discordBackgroundDiv && discordImg) {
-          discordImg.setAttribute(src, clear);
-          discordImg.setAttribute(alt, clear);
-        }
-
-        if (discordNameDiv && discordNameSpan) {
-          discordNameSpan.innerText = clear;
-        }
-      })();
-
-      (function dcContentsToken() {
-        if (discordMainDiv && discordBackgroundDiv && discordImg) {
-          discordImg.setAttribute(
-            src,
-            "Image Ordner/Social Icon's Ordner/discord_icon.png",
-          );
-          discordImg.setAttribute(
-            alt,
-            "Discord Server: The Sickandangry Home!",
-          );
-        }
-
-        if (discordMainDiv && discordNameDiv && discordNameSpan) {
-          discordNameSpan.textContent = "The Sickandangry Home!";
-        }
-      })();
-    })();
-
+    
     const facebookMainDiv = get("facebookMainContainerId");
     const facebookImgDiv = get("facebookImgContainerId");
     const facebookBackgroundDiv = get("facebookBackgroundContainerId");
     const facebookImg = get("facebookImgId");
     const facebookNameDiv = get("facebookNameContainerId");
     const facebookNameSpan = get("facebookNameSpanId");
-
-    (function facebookToken() {
-      const src = "src";
-      const alt = "alt";
-
-      (function fbClearToken() {
-        const clear = "";
-
-        if (facebookImgDiv && facebookBackgroundDiv && facebookImg) {
-          facebookImg.setAttribute(src, clear);
-          facebookImg.setAttribute(alt, clear);
-        }
-
-        if (facebookNameDiv && facebookNameSpan) {
-          facebookNameSpan.innerText = clear;
-        }
-      })();
-
-      (function fbContentsToken() {
-        if (facebookMainDiv && facebookBackgroundDiv && facebookImg) {
-          facebookImg.setAttribute(
-            src,
-            "Image Ordner/Social Icon's Ordner/facebook_icon.png",
-          );
-          facebookImg.setAttribute(alt, "Facebook Channel: Pietro Bento");
-        }
-
-        if (facebookMainDiv && facebookNameDiv && facebookNameSpan) {
-          facebookNameSpan.textContent = "Pietro Bento";
-        }
-      })();
-    })();
 
     (function elSecurityToken() {
       const elementArray = [
